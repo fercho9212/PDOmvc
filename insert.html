@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <h1>Insertar Productos</h1>
+                <form method="post" action="/PDOMVC/Controller/insert.php">
+
+                    <table>
+                        <tr>
+                            <td>Nombre</td>
+                            <td><input type="text" name="name"></td>
+                        </tr>
+                        <tr>
+                            <td>Descripción</td>
+                            <td><textarea name="description" id="" cols="30" rows="10"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Categoria</td>
+                            <td><input type="text" name="category"></td>
+                        </tr>
+                        <tr>
+                            <td>Precio</td>
+                            <td><input type="text" name="sales"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" class="btn btn-primary" value="Enviar"></td>
+                        </tr>
+                    </table>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./public/js/jquery.min.js"></script>
+    <script src="./public/js/bootstrap.js"></script>
+</body>
+
+</html>
